@@ -1,0 +1,44 @@
+1.What is Emmet?
+
+Emmet is plug-in in text editors when given short abbreviations generates expanded code. For example in VS Code 'html:5' gives us a basic html skelton.
+
+2. Difference between Library and Framework.
+
+Framework : It provides a structure for building applications. A framework is like the foundation upon which developers build applications for specific platforms. 
+Library : A library, on the other hand, is a collection of reusable code modules or functions that perform specific tasks or provide specific functionalities.
+
+3.What is CDN? Why do we use it?
+
+CDN stands for Content Delivery Network. It is a network of distributed servers positioned across various geographical locations that work together to deliver content (such as web pages, images, videos, scripts, stylesheets, etc.) to users more efficiently and reliably. 
+CDNs are designed to reduce latency, enhance performance, and improve the overall user experience of accessing web content.
+
+4.Why is react called react?
+
+The name "React" comes from the way the library operates: by reacting to changes in data.
+The user interface reacts to changes in the underlying data or state. 
+
+5.What is crossorigin in script tag?
+
+It refers to interaction between resources from different origins ( domains,ports,protocols) within the web applications.
+
+6.Difference between React and ReactDOM?
+
+React: React is a javascript library, designed for building better user interfaces.
+React-DOM: React-DOM is a complimentary library to React which glues React to the browser DOM.
+
+7.What is the difference between react.development.js and react.production.js files via CDN?
+
+react.development.js:This version of React is intended for use during development.
+It includes additional development-friendly features such as warning messages, helpful error messages, and readable code formatting.
+The development version is larger in size compared to the production version due to the inclusion of these extra features.
+It's beneficial for debugging and development purposes as it provides more detailed information about potential issues in your code.
+
+react.production.js: This version of React is optimized for production use.
+It excludes the development-specific features present in the development version, making it smaller and more lightweight.
+By removing the development-specific code and optimizations, the production version helps reduce the file size and improve performance.
+It's suitable for deploying your application to production environments where file size and performance are critical factors.
+
+8.What are async and defer?
+
+If async attribute is used in script tag , the html parsing and fetching scripts takes place parallely. Then html parsing pauses to execute the script.Once execution over html parsing continues.
+In case of defer, the html parsing and fetching of script takes place parallely, but execution of scripts takes place only after html parsing is completed.
